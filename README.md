@@ -4,14 +4,6 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.6.3-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
-## Índice
-- [Descripción del Proyecto](#descripción-del-proyecto)
-- [Estado del Proyecto](#estado-del-proyecto)
-- [Demostración de Funciones y Aplicaciones](#demostración-de-funciones-y-aplicaciones)
-- [Acceso al Proyecto](#acceso-al-proyecto)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Autores del Proyecto](#autores-del-proyecto)
-
 ## :file_folder: Descripción del Proyecto
 Este es nuestro desafío, llamado ForoHub: en él, vamos a replicar este proceso a nivel de back end y, para eso, crearemos una API REST usando Spring.
 Esta ofrece funcionalidades CRUD para la gestión de tópicos, cursos y usuarios. Permite a los usuarios autenticarse, registrar, listar, actualizar y eliminar registros en la base de datos, proporcionando un acceso controlado mediante tokens JWT.
@@ -90,6 +82,10 @@ Nuestra API se centrará específicamente en los tópicos, cursos, y debe permit
 - **Eliminar Usuario:** 
   - **Endpoint:** `DELETE /usuarios/{id}`
   - **Descripción:** Elimina un usuario registrado.
+ 
+## Pruebas de ENDPOINTS con Swagger UI
+En siguiente enlace se presentara un video haciendo pruebas con todos los Endpoints del foro.
+[Pruebas ENDPOINTS con Swagger UI](https://youtu.be/-ZmTysVnlUs)
 
 ## :computer:Tecnologías Utilizadas
 - Java JDK 17: Lenguaje de programación utilizado.
@@ -105,12 +101,9 @@ Nuestra API se centrará específicamente en los tópicos, cursos, y debe permit
 Para clonar y ejecutar este proyecto, necesitarás Git y Java 11 instalados en tu máquina. Desde tu terminal, ejecuta:
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tuusuario/forohub_challenge.git
+git clone https://github.com/11walker11/forohub_challenge.git
 
 # Ir al directorio del proyecto
 cd forohub_challenge
-
-# Ejecutar el proyecto con Maven
-./mvnw spring-boot:run
 
 
